@@ -5,18 +5,7 @@
   box-sizing: border-box;
 }
 
-.page {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  display: flex;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  background-color: #1b1919;
-}
+
 
 h1,
 h2,
@@ -41,6 +30,18 @@ html {
   block-size: 100%;
 }
 
+.page {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  inline-size: 1200px;
+  block-size: 100%;
+  margin: auto;
+  color: #fff;
+  background-color: #1b1919;
+}
 
 .content {
   display: grid;
@@ -214,7 +215,7 @@ html {
 
 .search-form__textfield[type="text"] {
   width: 224px;
-  height: 29px;
+  height: 26px;
   font: inherit;
   background-color: transparent;
   color: rgb(255, 255, 255);
